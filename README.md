@@ -1,4 +1,4 @@
-Hinweis: Um den reibungslosen Ablauf des Programms zu gewährleisten, müssen dei angefragten Dateien Adressliste.xml und Bestellungsliste.cpp im build-Ordner vorhanden sein, ansonsten läuft das Programm nicht richtig ab.
+Hinweis: Um den reibungslosen Ablauf des Programms zu gewährleisten, müssen die angefragten Dateien Adressliste.xml und Bestellungsliste.cpp im build-Ordner vorhanden sein, ansonsten läuft das Programm nicht richtig ab.
 
 Entwurf und Beschreibung
 
