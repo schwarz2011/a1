@@ -1,0 +1,115 @@
+<?xml version="1.0"?>  
+<!DOCTYPE OnlinebestellListe [
+<!ELEMENT Onlinebestellung (Adresse+,Bestellung+)>
+<!ATTLIST Onlinebestellung
+  xmlns CDATA #FIXED ''
+  Bestellnummer CDATA #REQUIRED>
+<!ELEMENT Addresse (Name,Strasse,Stadt,Plz,Bundesland)>
+<!ATTLIST Addresse
+  xmlns CDATA #FIXED ''
+  Type NMTOKEN #REQUIRED>
+<!ELEMENT Bestellung (Produktummer,Produktname,Menge,Preis)>
+<!ATTLIST Bestellung 
+ xmlns CDATA #FIXED ''>
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name
+  xmlns CDATA #FIXED ''>
+<!ELEMENT Strasse (#PCDATA)>
+<!ATTLIST Strasse
+  xmlns CDATA #FIXED ''>
+<!ELEMENT Stadt (#PCDATA)>
+<!ATTLIST Stadt
+  xmlns CDATA #FIXED ''>
+<!ELEMENT Plz (#PCDATA)>
+<!ATTLIST Plz
+  xmlns CDATA #FIXED ''>
+<!ELEMENT Bundesland (#PCDATA)>
+<!ATTLIST Bundesland
+  xmlns CDATA #FIXED ''>
+<!ELEMENT Produktummer (#PCDATA)>
+<!ATTLIST Produktummer
+ xmlns CDATA #FIXED ''>
+<!ELEMENT Produktname (#PCDATA)>
+<!ATTLIST Produktname
+ xmlns CDATA #FIXED ''>
+<!ELEMENT Menge (#PCDATA)>
+<!ATTLIST Menge
+ xmlns CDATA #FIXED ''>
+<!ELEMENT Preis (#PCDATA)>
+<!ATTLIST Preis
+xmlns CDATA #FIXED ''>
+]>
+<OnlinebestellListe>
+<Onlinebestellung Bestellnummer="1">
+<Adresse Type=" Shipping">
+<Name>EllenAdams</Name>
+<Strasse>123MapleStreet </Strasse> 
+<Stadt>MillValley</Stadt>
+<Plz>10999</Plz>
+<Bundesland>USA</Bundesland>
+</Adresse>
+<Adresse Type=" Billing">
+<Name>EllenAdams</Name>
+<Strasse>123MapleStreettttt </Strasse> 
+<Stadt>MillValley</Stadt>
+<Plz>10999</Plz>
+<Bundesland>USA</Bundesland>
+</Adresse>
+<Bestellung>
+<Produktummer>122</Produktummer>
+<Produktname>Item3</Produktname>
+<Menge>2</Menge>
+<Preis>10</Preis>
+</Bestellung>
+</Onlinebestellung>
+<Onlinebestellung Bestellnummer="2">
+<Adresse Type=" Shipping">
+<Name>EllenAdams</Name>
+<Strasse>123MapleStreet </Strasse> 
+<Stadt>MillValleyzzz</Stadt>
+<Plz>10999</Plz>
+<Bundesland>USA</Bundesland>
+</Adresse>
+<Adresse Type=" Billing">
+<Name>EllenAdams</Name>
+<Strasse>123MapleStreettttt </Strasse> 
+<Stadt>MillValley</Stadt>
+<Plz>10999</Plz>
+<Bundesland>USA</Bundesland>
+</Adresse>
+<Bestellung>
+<Produktummer>122</Produktummer>
+<Produktname>Item5</Produktname>
+<Menge>2</Menge>
+<Preis>10</Preis>
+</Bestellung>
+<Bestellung>
+<Produktummer>132</Produktummer>
+<Produktname>Item1</Produktname>
+<Menge>2</Menge>
+<Preis>10</Preis>
+</Bestellung>
+</Onlinebestellung>
+<Onlinebestellung Bestellnummer="12">
+<Adresse Type=" Shipping">
+<Name>EllenAdams</Name>
+<Strasse>123MapleStreet </Strasse> 
+<Stadt>MillValley</Stadt>
+<Plz>10999</Plz>
+<Bundesland>USA</Bundesland>
+</Adresse>
+<Adresse Type=" Billing">
+<Name>EllenAdams</Name>
+<Strasse>123MapleStreet </Strasse> 
+<Stadt>MillValley</Stadt>
+<Plz>10999</Plz>
+<Bundesland>USA</Bundesland>
+</Adresse>
+<Bestellung>
+<Produktummer>122</Produktummer>
+<Produktname>Item2</Produktname>
+<Menge>2</Menge>
+<Preis>10</Preis>
+</Bestellung>
+</Onlinebestellung>
+</OnlinebestellListe>

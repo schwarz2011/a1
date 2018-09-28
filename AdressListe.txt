@@ -1,0 +1,76 @@
+<?xml version="1.0"?>  
+<!DOCTYPE OnlinebestellListe [
+<!ELEMENT Onlinebestellung (Addresse)+>
+<!ATTLIST Onlinebestellung
+  xmlns CDATA #FIXED ''
+  Bestellnummer CDATA #REQUIRED>
+<!ELEMENT Addresse (Name,Strasse,Stadt,Plz,Bundesland)>
+<!ATTLIST Addresse
+  xmlns CDATA #FIXED ''
+  Type NMTOKEN #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name
+  xmlns CDATA #FIXED ''>
+<!ELEMENT Strasse (#PCDATA)>
+<!ATTLIST Strasse
+  xmlns CDATA #FIXED ''>
+<!ELEMENT Stadt (#PCDATA)>
+<!ATTLIST Stadt
+  xmlns CDATA #FIXED ''>
+<!ELEMENT Plz (#PCDATA)>
+<!ATTLIST Plz
+  xmlns CDATA #FIXED ''>
+<!ELEMENT Bundesland (#PCDATA)>
+<!ATTLIST Bundesland
+  xmlns CDATA #FIXED ''>
+]>
+<OnlinebestellListe>
+<Onlinebestellung Bestellnummer="12">  
+  <Adresse Type="Shipping">  
+     <Name>Ellen Adams</Name>  
+     <Strasse>123 Maple Street</Strasse>  
+     <Stadt>Mill Valley</Stadt>    
+     <Plz>10999</Plz>  
+     <Bundesland>USA</Bundesland>  
+   </Adresse>  
+  <Adresse Type="Billing">  
+     <Name>Ellen Adams</Name>  
+     <Strasse>123 Maple Street</Strasse>  
+     <Stadt>Mill Valley</Stadt>    
+     <Plz>10999</Plz>  
+     <Bundesland>USA</Bundesland>
+  </Adresse>    
+</Onlinebestellung>
+<Onlinebestellung Bestellnummer="1">  
+  <Adresse Type="Shipping">  
+     <Name>Ellen Adams</Name>  
+     <Strasse>123 Maple Street</Strasse>  
+     <Stadt>Mill Valley</Stadt>    
+     <Plz>10999</Plz>  
+     <Bundesland>USA</Bundesland>  
+   </Adresse>  
+  <Adresse Type="Billing">  
+     <Name>Ellen Adams</Name>  
+     <Strasse>123 Maple Streettttt</Strasse>  
+     <Stadt>Mill Valley</Stadt>    
+     <Plz>10999</Plz>  
+     <Bundesland>USA</Bundesland>
+  </Adresse>    
+</Onlinebestellung>
+<Onlinebestellung Bestellnummer="2">  
+  <Adresse Type="Shipping">  
+     <Name>Ellen Adams</Name>  
+     <Strasse>123 Maple Street</Strasse>  
+     <Stadt>Mill Valleyzzz</Stadt>    
+     <Plz>10999</Plz>  
+     <Bundesland>USA</Bundesland>  
+   </Adresse>  
+  <Adresse Type="Billing">  
+     <Name>Ellen Adams</Name>  
+     <Strasse>123 Maple Streettttt</Strasse>  
+     <Stadt>Mill Valley</Stadt>    
+     <Plz>10999</Plz>  
+     <Bundesland>USA</Bundesland>
+  </Adresse>    
+</Onlinebestellung>
+</OnlinebestellListe>
