@@ -24,18 +24,12 @@ Bestellnummer sotiert werden. Dieser Vorgang ist wichtig f¸r die Konvetierung u
 eine XML Datei. Weiterhin wird f¸r eine Men¸f¸hrung ein CLI erstellt z.B. in der Main, so kˆnnen verschiedene Auswahl-
 mˆglichkeiten getroffen werden.
 
-(Bild einf¸gen z.B. Klassendiagramm welche die Zusammenh‰nge der Klassen darstellt)
-
 Parsung:
 
 Die Textdatei stellt ein CSV Format dar und ist somit einfach zu parsen, da CSV Dateien aus Strings bestehen die alle
 Informationen f¸r ein Objekt Bestellung beinhalten. Jede einzelne Zeile enth‰lt somit die Werte f¸r ein Objekt Bestellung 
 und kann ¸ber den Stringstream(Konstruktor) eingelesen werden.
 
-(Bild f¸r die Parsung der CSV Datei einf¸gen)
-
 Die XML Datei hingegen muss genauer analysiert werden damit die relevanten Werte gefiltert werden kˆnnen, dazu m¸ssen
 zun‰chst die ensprechenden Zeilen gefunden werden, zusammengehˆrige Werte als String gespeichert werden und dannach kann 
-der Stringstream(Konstruktor) wie oben benutzt werden um ein Objekt Adresse zu erstellen.
-
-(Bild f¸r die Parsung der XML Datei einf¸gen)         
+der Stringstream(Konstruktor) wie oben benutzt werden um ein Objekt Adresse zu erstellen.        
