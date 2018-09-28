@@ -1,8 +1,3 @@
-# a1
-
-Den Inhalt in Word kopieren und eine PDF Datei erstellen
-------------------------------------------------------------------------------------
-
 Entwurf und Beschreibung
 
 Idee:
